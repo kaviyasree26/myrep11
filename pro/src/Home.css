@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+}
+.outer {
+    width: 100vw;
+    height: 185vh;
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+}
+.div4 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.div5 {
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 120vh;
+    width: 100vw;
+    color: black;
+}
+
+.div6 {
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.div7 {
+    height: 76vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.div8 {
+    border-radius: 30px;
+    height: 14cm;
+    width: 19cm;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div9 {
+    border-radius: 10px;
+    height: 5cm;
+    width: 7cm;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReZqltmGO4SqZRhfVJNT11m6oi3gjxFncn8A&usqp=CAU");
+    background-size: cover;
+}
+
+.div10 {
+    border-radius: 10px;
+    height: 5cm;
+    width: 7cm;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYrqKwrdW_OuvcxgMlU0vpqOdLsTTV-kg6g&usqp=CAU");
+    background-size: cover;
+}
+
+.div11 {
+    border-radius: 10px;
+    height: 5cm;
+    width: 7cm;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-xY6xcqP9JjiwHKbGzUnJ_23be3F2RpzTg&usqp=CAU");
+    background-size: cover;
+}
+
+.div12 {
+    border-radius: 10px;
+    height: 5cm;
+    width: 7cm;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/141/670/small/cinematography-silhouette-icon-vectors.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.div13 {
+    border-radius: 10px;
+    height: 5cm;
+    width: 7cm;
+    background-image: url("https://png.pngtree.com/element_our/png/20180922/business-icon-design-vector-png_108245.jpg");
+    background-size: cover;
+}
+
+.div14 {
+    border-radius: 10px;
+    height: 5cm;
+    width: 7cm;
+    background-image: url("https://news.mit.edu/sites/default/files/images/202303/MIT-Hash-Functions-01-press.jpg");
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+    /* Set the width of the table */
+}
+
+td {
+    width: 100px;
+    /* Set the width of all cells */
+    /* Alternatively, you can use min-width or max-width based on your needs */
+}
+
+.aa {
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.aa:hover {
+    background-color: rgb(46, 40, 40);
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.042),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.061),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.075),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.089),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.108),
+    100px 100px 80px rgba(0, 0, 0, 0.15)
+  ;
+}
+.main {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.div16 {
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(37, 37, 47);
+}
+
+.search {
+    width: 30%;
+}
+
+ul li {
+    font-size: 20px;
+}
